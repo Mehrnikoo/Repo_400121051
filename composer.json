@@ -1,6 +1,6 @@
 {
     "name": "glitching0ut/uni400121051",
-    "description": "A simple web application project.",
+    "description": "A simple web application project for university.",
     "type": "project",
     "require": {
         "php": "^8.0"
