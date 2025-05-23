@@ -3,14 +3,21 @@
     "description": "A simple web application project for university.",
     "type": "project",
     "require": {
-        "php": "^8.0"
+        "php": "^8.0",
+        "ilvalerione/state-machine": "^1.2"
     },
     "autoload": {
         "psr-4": {
-            "App\\": "src/"
+            "Website\\": "src/",
+            "App\\": "app/"
         }
     },
     "scripts": {
         "start": "php -S localhost:8000 -t public"
+    },
+    "config": {
+        "allow-plugins": {
+            "kylekatarnls/update-helper": true
+        }
     }
 }
